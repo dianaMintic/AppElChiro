@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".resumenPedido">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <Button
+        android:id="@+id/registro4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:layout_marginBottom="16dp"
+        android:text="FACTURAR"
+        android:textSize="20sp"
+        app:backgroundTint="#717070"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar3"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="415dp"
+        android:layout_height="120dp"
+        android:layout_gravity="bottom"
+        app:backgroundTint="#DAD7D7"
+        app:contentInsetStart="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camiseta Blanca  - Gef"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$ 25.500"
+        android:textColor="#FA070707"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:background="ffffffffffff"
+        app:srcCompat="@drawable/anadir"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="fffffffff"
+        app:srcCompat="@drawable/dismunuir"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$ 55.500"
+        android:textColor="#FA070707"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar2"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="414dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="672dp"
+        app:backgroundTint="#DAD7D7"
+        app:contentInsetStart="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Resumen de tu pedido"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Regresar"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="117dp"
+        android:layout_height="115dp"
+        app:srcCompat="@drawable/camisetacopia"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="117dp"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/faldacopia"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mini Falda Palo de rosa - Coquet"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:background="ffffffffffff"
+        app:srcCompat="@drawable/anadir"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="fffffffff"
+        app:srcCompat="@drawable/dismunuir"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SubTotal:"
+        android:textColor="#E8050505"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$ 80.000"
+        android:textColor="#070707"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
