@@ -17,4 +17,9 @@ public class Busqueda extends AppCompatActivity {
         Intent intentCategorias = new Intent(this, Categorias.class);
         startActivity(intentCategorias);
     }
+
+    public void goToMarcas (View view){
+        Intent intentMarcas = new Intent(this, Marcas.class);
+        startActivity(intentMarcas);
+    }
 }

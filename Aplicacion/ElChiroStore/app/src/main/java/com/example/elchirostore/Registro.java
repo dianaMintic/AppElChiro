@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.elchirostore.BD.MySQLiteHelper;
 
@@ -43,9 +44,13 @@ public class Registro extends AppCompatActivity
         MySQLiteHelper conexionBD = new MySQLiteHelper(this);
         String InsertQuery = "INSERT INTO cliente (telefono, nombre, email, direccion, clave) " +
                 "VALUES ('"+phone+"', '"+name+"', '"+email+"', '"+address+"', '"+clave+"' )";
-        conexionBD.inserdata(InsertQuery);
-
-
+        boolean success = conexionBD.inserdata(InsertQuery);
+        if (success){
+            Toast.makeText(this, "Bienvenid@. Registro exitoso.", Toast.LENGTH_LONG).show();
+            goToIngreso();
+        }else{
+            Toast.makeText(this, "Por favor vuelve a intentarlo.", Toast.LENGTH_LONG).show();
+        }
     }
 
     public void goToMainActivity (View view){
@@ -54,6 +59,10 @@ public class Registro extends AppCompatActivity
     }
 
     public void goToIngreso (View view){
+        Intent intentIngreso = new Intent(this, Ingreso.class);
+        startActivity(intentIngreso);
+    }
+    public void goToIngreso (){
         Intent intentIngreso = new Intent(this, Ingreso.class);
         startActivity(intentIngreso);
     }

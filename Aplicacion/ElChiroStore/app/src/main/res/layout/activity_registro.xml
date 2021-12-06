@@ -60,22 +60,21 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="390dp"
+        android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginEnd="17dp"
         android:layout_marginRight="17dp"
-        android:layout_marginBottom="112dp"
+        android:layout_marginBottom="108dp"
         android:fontFamily="@font/inder"
         android:gravity="center"
         android:text="Continuando aceptas nuestros Terminos y Condiciones, sí como la Política de privacidad."
         android:textColor="#050505"
-        android:textSize="14sp"
+        android:textSize="13sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -106,8 +105,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginRight="84dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
         android:layout_marginBottom="50dp"
         android:onClick="guardarCliente"
         android:text="REGISTRARME"
@@ -115,7 +114,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ingresar"
         app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.282" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView12"
